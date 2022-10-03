@@ -1,11 +1,10 @@
-import { BookImplement } from './modules/bookimplement.js';
-import { Book } from './modules/book.js';
+import BookImplement from './modules/bookimplement.js';
+import Book from './modules/book.js';
 import { DateTime } from './modules/luxon.js';
 
 window.onload = () => {
-
   const time = document.querySelector('.time');
-  
+
   setInterval(() => {
     const date = DateTime.now().toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
     time.innerHTML = date;
