@@ -1,56 +1,32 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books With ES6
 
-> Description the project.
+> This project is a modification of the previous project, Awesome Books With Full Navigation Complete. This project is developed using ES6 modules. To show the date time below the navigation links, luxon JavaScript file is used. DateTime class from luxon.js is used to display the time to stick to this Microverse project requirement. Each module except the index.js file is implemented with export statements. The index.js file starts with import statements from each module including the luxon.js file, to show the date time. 
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Major languages: JavaScript, HTML, CSS.
+- Frameworks: No frameworks used.
+- Technologies used: Github flow, Git, Github, VS code editor, linters checker.
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**You cna clone my repository, and contribute to this project by modifying it. Use the follwoing command to clone the repository: https://github.com/amare1990/Awesome-Books-With-ES6.git**
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
 
 ## Authors
 
-👤 **Author1**
+👤 **Amare Kassa**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/amare1990)
+- Twitter: [@emailhandle](amaremek@gmail.com)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/amare1990)
 
 ## 🤝 Contributing
 
@@ -70,6 +46,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT/amare1990/Awesome-Books-With-ES6](./LICENSE) licensed.
