@@ -1,4 +1,4 @@
-export class BookImplement {
+class BookImplement {
   constructor() {
     this.bookArray = [];
     this.booksContainer = document.querySelector('.book-from-storage');
@@ -8,12 +8,12 @@ export class BookImplement {
   removeBook = (e, newBookElement) => {
     const index = e.target.getAttribute('myIndex');
 
-    let checkBtnclicked = (element, i) => {
+    const checkBtnclicked = (element, i) => {
       if (i === parseInt(index, 10)) {
         return false;
       }
       return true;
-    }
+    };
 
     this.bookArray = this.bookArray.filter(checkBtnclicked);
     newBookElement.remove();
@@ -38,3 +38,5 @@ export class BookImplement {
     });
   }
 } // End of BookImplement class
+
+export default BookImplement;
